@@ -1,0 +1,209 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: left;
+  background-color: #72bbcf;
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#education {
+  padding: 20px;
+}
+
+.education-entry {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.education-entry p {
+  margin: 5px 0;
+}
+
+.education-entry:hover {
+  background-color: #e6e6e6;
+  transition: background-color 0.3s ease;
+}
+
+#gd{
+  margin-left: 800px;
+}
+#gds{
+  margin-left: 750px;
+}
+#gd1{
+  margin-left: 860px;
+}
+#gd2{
+  margin-left: 825px;
+}
+#gd3{
+  margin-left: 880px;
+}
+#gd4{
+  margin-left: 1060px;
+}
+
+section#skills {
+  padding: 20px;
+}
+
+.Web-Technology {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Web-Technology li {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.Web-Technology li:hover {
+  background-color: #00578a;
+}
+
+.Back-End {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Back-End li {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.Back-End li:hover {
+  background-color: #00578a; 
+}
+
+.Testing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Testing li {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.Testing li:hover {
+  background-color: #00578a; 
+}
+
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 15%;
+  height: auto;
+  border-radius: 8px; 
+  margin-bottom: 10px; 
+}
+
+
+#achievements {
+  padding: 20px;
+}
+
+.achievement-card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.achievement-card h3 {
+  margin-top: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1010ed;
+}
+
+footer {
+  background-color: #232121; 
+  padding: 20px;
+  text-align: center;
+}
+
+.email {
+  font-size: 16px;
+  color: #f1f1f1; 
+  margin: 0; 
+}
+
+.email a {
+  color: #6565d1; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
